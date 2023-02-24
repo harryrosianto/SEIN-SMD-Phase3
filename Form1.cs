@@ -93,6 +93,11 @@ namespace SampleUI_SamsungAGV
 
         }
 
+        private void closeButton_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
 
 
         //public string url = "http://192.168.77.220:8000/req";
